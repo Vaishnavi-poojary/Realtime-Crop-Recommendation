@@ -1,16 +1,26 @@
-# crop_app
+# Realtime Crop Recommendation App 
 
-A new Flutter project.
+This is a Flutter-based mobile application that recommends suitable crops
+based on soil data and weather conditions.
 
-## Getting Started
+## Features
+-  Uses crop dataset
+-  Fetches live weather data
+-  Smart crop recommendation
+-  User-friendly mobile interface
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter (Frontend)
+- Python (Backend / ML)
+- CSV Dataset
 
-A few resources to get you started if this is your first Flutter project:
+## How to Run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Install Flutter
+2. Clone this repository
+3. Run:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   flutter pub get  
+   flutter run
+
+
